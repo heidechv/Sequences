@@ -1,6 +1,6 @@
 """
 This module shows how to ITERATE (i.e. loop) through a SEQUENCE
-in ways OTHER than just going thru the sequence from BEGINNING to END.
+in ways OTHER than just going through the sequence from BEGINNING to END.
 
 It also shows how to SELECT items in a sequence, e.g.:
   -- the items that are strings
@@ -12,11 +12,11 @@ is different from:
   -- LOOKING only at items AT even-numbered indices.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Hailey Heidecker.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
-# TODO: 2. READ the program below and RUN it.
+# DONE: 2. READ the program below and RUN it.
 #
 #   When you have read it, asking questions as needed,
 #   and you feel that you understand:
@@ -53,7 +53,7 @@ def sum_string_lengths(sequence, m, n):
     What goes out:
       Returns the sum of the lengths of the strings
       at indices m to n, inclusive, with the restriction
-      that the loop must go thru the sequence BACKWARDS.
+      that the loop must go through the sequence BACKWARDS.
     Side effects:   None.
     Examples:
       Suppose that  sequence  is:
@@ -229,6 +229,7 @@ def run_test_sum_items_at_even_indices():
 
     print('Returned, expected:', total1, 14)
     print('Returned, expected:', total2, 19.5)
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
